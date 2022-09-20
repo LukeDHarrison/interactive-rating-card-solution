@@ -216,6 +216,7 @@ input[type="radio"] {
   .rating-card__form fieldset {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
   }
 }
 
