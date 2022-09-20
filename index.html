@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Interactive Rating Component | Frontend Mentor</title>
+  </head>
+  <body>
+    <main>
+      <div class="rating-card">
+        <div id="card-img-container" class="rating-card__img-container">
+          <img id="card-img" />
+        </div>
+        <p
+          id="confirmation-message"
+          class="rating-card__confirmation-message"
+        ></p>
+        <h1 id="card-title" class="rating-card__title"></h1>
+        <p id="card-message" class="rating-card__message"></p>
+        <form id="card-form" class="rating-card__form">
+          <fieldset name="radio">
+            <label for="1">
+              <input type="radio" id="1" name="user-rating" value="1" />
+              <span class="input__value">1</span>
+            </label>
+            <label for="2">
+              <input type="radio" id="2" name="user-rating" value="2" />
+              <span class="input__value">2</span>
+            </label>
+            <label for="3">
+              <input type="radio" id="3" name="user-rating" value="3" />
+              <span class="input__value">3</span>
+            </label>
+            <label for="4">
+              <input type="radio" id="4" name="user-rating" value="4" />
+              <span class="input__value">4</span>
+            </label>
+            <label for="5">
+              <input type="radio" id="5" name="user-rating" value="5" />
+              <span class="input__value">5</span>
+            </label>
+          </fieldset>
+          <button
+            id="form-btn"
+            type="submit"
+            value="Submit"
+            class="form__button"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://twitter.com/LukeDHarrison_">ldh</a>. Loader
+      by <a href="https://cssloaders.github.io/">CSS Loaders</a>.
+    </footer>
+  </body>
+</html>
